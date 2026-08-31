@@ -1,0 +1,37 @@
+{
+  "name": "cba-nodejs-answers",
+  "version": "1.0.0",
+  "description": "Node.js Express answers using in-memory databases.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "start:01": "node answers/01-personal-expense-tracker/server.js",
+    "start:02": "node answers/02-monthly-budget-manager/server.js",
+    "start:03": "node answers/03-loan-emi-calculator/server.js",
+    "start:04": "node answers/04-patient-registration-system/server.js",
+    "start:05": "node answers/05-doctor-appointment-system/server.js",
+    "start:06": "node answers/06-medicine-reminder/server.js",
+    "start:07": "node answers/07-bank-account-transaction-manager/server.js",
+    "start:08": "node answers/08-personal-finance-dashboard/server.js",
+    "start:09": "node answers/09-stock-portfolio-tracker/server.js",
+    "start:10": "node answers/10-expense-approval-system/server.js",
+    "start:11": "node answers/11-medical-patient-records-system/server.js",
+    "start:12": "node answers/12-hospital-appointment-queue-management/server.js",
+    "start:13": "node answers/13-medical-billing-system/server.js",
+    "start:14": "node answers/14-insurance-claim-management-system/server.js",
+    "start:15": "node answers/15-complete-healthcare-finance-dashboard/server.js",
+    "check": "node --check answers/01-personal-expense-tracker/server.js && node --check answers/02-monthly-budget-manager/server.js && node --check answers/03-loan-emi-calculator/server.js && node --check answers/04-patient-registration-system/server.js && node --check answers/05-doctor-appointment-system/server.js && node --check answers/06-medicine-reminder/server.js && node --check answers/07-bank-account-transaction-manager/server.js && node --check answers/08-personal-finance-dashboard/server.js && node --check answers/09-stock-portfolio-tracker/server.js && node --check answers/10-expense-approval-system/server.js && node --check answers/11-medical-patient-records-system/server.js && node --check answers/12-hospital-appointment-queue-management/server.js && node --check answers/13-medical-billing-system/server.js && node --check answers/14-insurance-claim-management-system/server.js && node --check answers/15-complete-healthcare-finance-dashboard/server.js"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "^5.0.2",
+    "express": "^4.18.3",
+    "lucide-react": "^0.468.0",
+    "vite": "^5.4.21",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+  }
+}
