@@ -1,0 +1,1 @@
+db.customers.findOne({ customerId: 103 })
