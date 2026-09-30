@@ -1,0 +1,9 @@
+order_id,customer,city,category,quantity,price
+101,Amit,hyderabad,electronics,2,15000
+102,Priya,HYDERABAD,electronics,1,25000
+103,Rahul,bangalore,furniture,3,5000
+104,Sneha,Bangalore,furniture,1,8000
+105,John,mumbai,electronics,2,12000
+106,Neha,Mumbai,electronics,1,18000
+107,Ravi,delhi,furniture,2,7000
+108,Anu,Delhi,furniture,1,9000
